@@ -2,6 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <cstdint>
 
 std::vector<uint8_t> varbyte_encode(const std::vector<int32_t>& numbers) {
     std::vector<uint8_t> encoded;
